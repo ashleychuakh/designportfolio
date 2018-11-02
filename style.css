@@ -1,0 +1,160 @@
+html,
+body {
+    height: 100%
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #eff1f2;
+    font-size: 14px !important;
+}
+
+a:hover {
+    color: #000 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.centered {
+    text-align: center;
+}
+
+a {
+    color: inherit;
+}
+
+#section1 {
+    height: 100%;
+}
+
+.portfolio-header {
+    height: 20%;
+    /*background-color: #fae4d5;*/
+    text-align: center;
+    padding-top: 5%;
+}
+
+/*.portfolio-header-personalbranding{
+    padding-top: 11%;
+    background-color: #FFC4BC;
+}*/
+
+.portfolio-body {
+    padding-top: 2%;
+    width: 60%;
+}
+
+a.nav-link,
+a.navbar-brand {
+    font-family: 'Ubuntu Mono', monospace !important;
+    float: right;
+}
+
+
+p #logo {
+    margin-bottom: 0 !important;
+}
+
+#welcometext {
+    padding-top: 15%;
+    padding-left: 150px;
+    height: 80%;
+}
+
+#aboutname {
+    padding-top: 15%;
+    padding-left: 80px;
+}
+
+#abouttext {
+    padding-top: 60%;
+    padding-right: 80px;
+}
+
+@media (max-width: 576px) {
+    #abouttext {
+        padding-top: 5%;
+        padding-right: 0;
+    }
+
+    #aboutname {
+        padding-left: 0;
+    }
+}
+
+#scrollvertical {
+    margin-top: 250px;
+    transform: rotate(270deg);
+    transform-origin: left top 0;
+    float: left;
+    position: absolute;
+}
+
+#portfolioheader {
+    text-align: center;
+}
+
+.portfolioitem {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#portfoliocard1 {
+    background-image: url('img/grid-mytinerary.png');
+    background-size: cover;
+    background-size: 100%;
+}
+
+#portfoliocard2 {
+    background-image: url('img/grid-travel2.png');
+    background-size: cover;
+    background-size: 100%;
+}
+
+#portfoliocard3 {
+    background-image: url('img/grid-minicure.png');
+    background-size: cover;
+    background-size: 100%;
+}
+
+#portfoliocard4 {
+    background-image: url('img/grid-casestudy.png');
+    background-size: cover;
+    background-size: 100%;
+}
+
+.minicure-demo {
+    height: 60%;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.portfoliocardtitle {
+    padding-top: 90px;
+    opacity: 1;
+}
+
+.portfolioitem {
+    height: 200px;
+}
+
+.cba-img {
+    background-size: contain;
+    width: 50%;
+    height: 40%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.footer {
+    text-align: center;
+    font-size: 30px;
+}
